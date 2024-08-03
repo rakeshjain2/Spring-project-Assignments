@@ -1,0 +1,15 @@
+package com.rakesh.controller;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class TestController {
+
+	
+	
+	public string add() {
+		int a=5;
+		int b=10;
+		System.out.println("Addition is :" _c);
+	}
+}

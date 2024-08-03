@@ -1,0 +1,19 @@
+package com.rakesh.controller;
+
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class TestController {
+
+	@@PostMapping("/add")
+	@ResponseBody
+	public String add() {
+		int a=5;
+		int b=10;
+		int c= a+b;
+		System.out.println("Addition is :"+c);
+		return "Addition is "+c;
+	}
+}
